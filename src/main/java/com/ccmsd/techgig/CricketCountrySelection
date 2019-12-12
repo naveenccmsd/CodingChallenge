@@ -1,0 +1,70 @@
+Cricket County Selections (100 Marks)
+
+A local cricket county invited players from two neighbouring towns Norwich, Ipswich to form a cricket team of 11 players to participate in an upcoming cricket tournament. After selection process, it has shortlisted 22 players from both towns together and tagged each player skill points between 5 to 10 (both numbers included, only whole numbers are considered) based on their performance. The county has also categorised players into pool of batsmen, bowlers, wicket keepers and all-rounders. A player can only belong to one pool. Now the county has asked its final selection committee to pick 11 players from all shortlisted players following the below rules:
+
+A minimum of 3 and a maximum of 6 batsmen must be selected.
+
+A minimum of 3 and a maximum of 6 bowlers must be selected.
+A minimum of 1 and a maximum of 4 Wicket Keeper must be selected.
+
+A minimum of 1 and a maximum of 4 All-rounders must be selected.
+
+A maximum of 7 players can be selected from each town.
+
+Skill points of selected players combined must not exceed 100 points.
+
+ 
+
+
+Can you help the selection committee to understand in how many ways they can pick final 11?
+
+
+
+Input Format
+There will be 22 lines of input.
+
+Each line of the input consists of skill of player, skill points of player and town of player space separately.
+
+
+
+
+Constraints
+5<= Skill Points <=10
+
+Output Format
+Print the total number of unique 11 member teams that can be formed with all the criteria mentioned in a separate line.
+
+Sample TestCase 1
+Input
+Batsman 10 Ipswich
+Batsman 10 Ipswich
+Batsman 10 Ipswich
+Batsman 10 Ipswich
+Batsman 10 Ipswich
+Batsman 10 Ipswich
+Batsman 10 Ipswich
+Batsman 10 Ipswich
+Batsman 10 Ipswich
+Batsman 10 Ipswich
+Batsman 10 Ipswich
+Bowler 10 Suffolk
+Bowler 5 Suffolk
+Bowler 5 Suffolk
+WicketKeeper 10 Suffolk
+AllRounder 10 Suffolk
+Bowler 10 Suffolk
+Bowler 10 Suffolk
+Bowler 10 Suffolk
+Bowler 10 Suffolk
+Bowler 10 Suffolk
+Bowler 10 Suffolk
+Output
+24486
+Time Limit(X):
+1.00 sec(s) for each input.
+Memory Limit:
+512 MB
+Source Limit:
+100 KB
+Allowed Languages:
+Java, Java 8, Js
